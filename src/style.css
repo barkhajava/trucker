@@ -2,3 +2,7 @@ body {
 	color: white;
 	background: ;
 }
+section {
+	height: 400 px;
+	borders: 3px solid gray;
+}
