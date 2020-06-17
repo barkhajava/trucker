@@ -1,4 +1,3 @@
-# trucker
+# Project Vehicle data
 
-Read me file for trucker
-This is a fleet management IOT API
+This project has been implemented in Spring Boot + Maven + JPA using MVC pattern
