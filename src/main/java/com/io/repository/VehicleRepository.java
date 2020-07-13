@@ -1,12 +1,16 @@
 package com.io.repository;
 
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.io.entity.Vehicle;
 
 @Repository
-public interface VehicleRepository extends JpaRepository<Vehicle, Integer>{
+public interface VehicleRepository extends CrudRepository<Vehicle, Integer>{
+
+	
 
 }
